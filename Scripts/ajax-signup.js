@@ -7,7 +7,6 @@ if (send) {
     send.addEventListener('click', signup, false);
 }
 
-
 function signup() {
     var emailStr = document.querySelector('.account').value;
     var passwordStr = document.querySelector('.password').value;
@@ -41,4 +40,3 @@ function signup() {
         }
     }
 }
-
